@@ -1,9 +1,8 @@
+arch:
+  - amd64
+  - ppc64le
 language: node_js
+#update node_js versions 12 & 14
 node_js:
-  - 0.6
-  - 0.8
-
-notifications:
-  email:
-    - travis@sidelab.com
-  irc: "irc.freenode.org#sidelab"
+  - 12
+  - 14
